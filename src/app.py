@@ -25,7 +25,7 @@ def handle_invalid_usage(error):
 def sitemap():
     return generate_sitemap(app)
 
-@app.route('/members', methods=['GET'])
+@app.route('/member', methods=['GET'])
 def handle_hello():
 
     # this is how you can use the Family datastructure by calling its methods
